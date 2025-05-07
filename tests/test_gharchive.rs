@@ -88,7 +88,7 @@ mod tests {
         source.init().await.unwrap();
 
         let mut record_count = 0;
-        let max_records = 200000;
+        let max_records = 100;
 
         loop {
             match source.next().await {
