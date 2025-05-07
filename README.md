@@ -38,7 +38,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-fluxus-source-gharchive = "0.1.0"
+fluxus-source-gharchive = "0.1"
 ```
 
 ## Usage
