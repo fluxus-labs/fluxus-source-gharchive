@@ -1,4 +1,4 @@
-//! # fluxus-source-gharchive
+//! Fluxus Source Gharchive
 //!
 //! A Rust library for processing and analyzing GitHub Archive data streams, providing
 //! efficient access to historical GitHub event data. This library enables seamless

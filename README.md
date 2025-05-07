@@ -1,4 +1,4 @@
-# fluxus-source-gharchive
+# Fluxus Source Gharchive
 
 A Fluxus source component for processing and analyzing GitHub Archive data streams, providing efficient access to historical GitHub event data.
 
