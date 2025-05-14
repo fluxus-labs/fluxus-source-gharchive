@@ -333,9 +333,9 @@ dependencies = [
 
 [[package]]
 name = "fluxus"
-version = "0.1.3"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6f5e4c4add0bc8bbcda4d81d9dd0c36c078805ac6623b74fffb3094a34a00a9e"
+checksum = "dad5dd2fd4fa1af45d42f5035a6750001670f90590ec041912246aa2d8338ea0"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -358,9 +358,9 @@ dependencies = [
 
 [[package]]
 name = "fluxus-api"
-version = "0.1.3"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eb0f513059eb4c41c88d5a9763d27335528afd2891f1daa1d69a0b145ac6c5fb"
+checksum = "303ec9853fab94c88dee2cb23f2629c035e0c705c908f03d30d341497977ad0b"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -379,9 +379,9 @@ dependencies = [
 
 [[package]]
 name = "fluxus-core"
-version = "0.1.3"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "317fc307f81ac5a1caa4aac03bf421ddb1f5ab74906ddd5810919074e4882080"
+checksum = "e5efa59be74bf37751c370560a642a1de39f27529fe29d05de3edae67258defc"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -401,9 +401,9 @@ dependencies = [
 
 [[package]]
 name = "fluxus-runtime"
-version = "0.1.3"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3f4dd29274c047c579c11b9842ec501a3e294bd10208386343cf98d56c49738d"
+checksum = "369cc95b593cac7ff4fddb1a38ef5b2a111fc32b035460b5137325dd672ad75f"
 dependencies = [
  "async-trait",
  "bytes",
@@ -422,9 +422,9 @@ dependencies = [
 
 [[package]]
 name = "fluxus-sinks"
-version = "0.1.3"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "edf9cdc7bce8b1974da9d7395830c1be4a6fb8b45b855024dde8cf6122c751c6"
+checksum = "a3ee9aee880c11403a70a01112ed62def669d38569cd2d0fa68e572f1c4eb1fa"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -463,9 +463,9 @@ dependencies = [
 
 [[package]]
 name = "fluxus-sources"
-version = "0.1.3"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "49e33d9e7d7439863abc98e9ec0a77666c287c0751c207ce97098215de3c10b4"
+checksum = "0f8574e94748a287807bd482cf0e69e9db27cd30f72e7bca01e6f95fb49cf401"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -473,18 +473,20 @@ dependencies = [
  "fluxus-utils",
  "futures",
  "num_cpus",
+ "reqwest",
  "serde",
  "serde_json",
  "thiserror",
  "tokio",
+ "tokio-util",
  "tracing",
 ]
 
 [[package]]
 name = "fluxus-transformers"
-version = "0.1.3"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f6c44049f79b31adb2f6aea26e852cd56ee96949e56bab69143166f1b27aa4d"
+checksum = "362849b4ce7089b30a9a4b8f14d5dbb5a1cd269db4ac0b227300f7ae5605b32f"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -503,9 +505,9 @@ dependencies = [
 
 [[package]]
 name = "fluxus-utils"
-version = "0.1.3"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "74a8b9281afe00f594b97cc8fbd4251195f671eaca8ccb2986477ea7f65bc509"
+checksum = "007b0c52abe62dfd735188d64084874a5210c1a86b43ab5edff2e8301d2a79bb"
 dependencies = [
  "anyhow",
  "async-trait",
